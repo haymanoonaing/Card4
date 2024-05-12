@@ -1,0 +1,73 @@
+.container{
+    
+   justify-content: center;
+}
+.header{
+    margin-left: 135px;
+    margin-right: 110px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.blog{
+    font-size: 18px;
+    color: rgb(90, 171, 247);
+    
+}
+.line{ 
+    margin-left: 135px;
+   margin-right: 110px;
+    
+    height: 2px;
+    margin-top: -1px;
+    background-color: rgb(168, 167, 167);
+}
+.a{ 
+    justify-content: center;
+    display: flex;
+    position: relative;
+    gap: 100px;
+    margin-left: 30px;
+}
+.container-item{
+    border: 1px solid rgb(245, 242, 242);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 300px;
+    height: 450px;
+    margin-top: 20px;
+}
+.b{
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 230px;
+    
+}
+.image{
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    z-index: -1;
+    height: 200px;
+    width: 100%;
+}
+.para{
+    margin-top: 240px;
+    text-align: justify;
+    font-size:medium;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+.icon{
+    background-color: rgb(220, 252, 252);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    margin-top: 59px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
